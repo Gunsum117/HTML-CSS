@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bigbox{
+	width: 960px;
+	margin: 50px auto;
+}
+
+.box{
+	position: relative;
+	padding: 10px;
+	float: left;
+	width: 300px;
+	border: solid 0.5px lightgray;
+}
+
+.box:nth-child(1){
+	margin-right: 30px;
+}
+
+.box:nth-child(2){
+	margin-right: 30px;
+}
+
+.step{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	color: white;
+}
+
+.img{
+	background-size: cover;
+	width: 280px;
+}
